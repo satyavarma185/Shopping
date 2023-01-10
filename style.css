@@ -1,0 +1,457 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: bisque; */
+    align-items: center;
+    padding: 20px;
+}
+
+.brand-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.brand-menu {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.brand-menu span {
+    margin-right: 30px;
+}
+
+.brand-icons {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.brand-icons span {
+    margin-right: 20px;
+}
+
+.brand-deal {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 13px;
+}
+
+.brand-deal i {
+    color: orange;
+}
+
+.category {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    padding: 10px;
+
+}
+
+.women {
+    background-image: url(/public/Images/Women-wear.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 150px;
+    opacity: 0.8;
+}
+
+
+.women:hover {
+    opacity: 1;
+}
+
+.category1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+.Men {
+    background-image: url(/public/Images/Men-wear.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 150px;
+    opacity: 0.8;
+}
+
+.Men:hover {
+    opacity: 1;
+}
+
+.Kids {
+    background-image: url(/public/Images/kids-wear1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 150px;
+    opacity: 0.8;
+}
+
+.Kids:hover {
+    opacity: 1;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    border: none;
+    background-color: white;
+    font-weight: 600;
+}
+
+button span {
+    margin-left: 10px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px 0px 20px;
+    /* border-bottom: 1px solid gray; */
+}
+
+.features span {
+    font-size: 20px;
+    font-weight: bold;
+    color: orangered;
+    margin-right: 15px;
+}
+
+.features dd {
+    margin-left: 40px;
+}
+
+.Collections {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.Collections h6 {
+    color: grey;
+}
+
+.Collections dt {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.row1 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 4fr 8fr;
+    height: 450px;
+    padding: 20px;
+}
+
+.bags {
+    background-image: url(/public/Images/Bags.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Printed-shirts {
+    background-image: url(/public/Images/Printes\ shirt.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.bags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.Catg-title {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.shop {
+    font-weight: 700;
+}
+
+.shop span {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.pr-shirts-child {
+    margin-left: 80px;
+}
+
+.row2 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 8fr 4fr;
+    height: 450px;
+    padding: 20px;
+}
+
+.Women-Dress {
+    background-image: url(/public/Images/Womens\ Dress.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.Women-Dress-child {
+    margin-left: 80px;
+    color: white;
+}
+
+.Sweat-shirt {
+    background-image: url(/public/Images/Sweatshirt.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.Top-Seller-banner {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-title {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.nav-items span {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.top-month-sellers {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    row-gap: 30px;
+    margin-left: 25px;
+}
+
+img {
+    width: 280px;
+    height: 350px;
+}
+
+.price {
+    margin-top: 25px;
+}
+
+.More {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6px;
+}
+
+.text {
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid black;
+}
+
+.adv-banner {
+    background-image: url(/public/Images/Adv-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+.discount {
+    font-size: 40px;
+}
+
+.count-down {
+    display: flex;
+    font-size: 25px;
+    color: white;
+}
+
+.count-down div {
+    margin-right: 15px;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    padding-left: unset;
+}
+
+.time-colon {
+    padding-top: 10px;
+}
+
+.shop-btn button {
+    background-color: black;
+    color: white;
+}
+
+.adv-banner-child {
+    padding-right: 40px;
+}
+
+.adv-banner-child div {
+    margin-bottom: 30px;
+}
+
+.review {
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+.review-head {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 20px;
+}
+
+.reviewed {
+    border: 1px solid lightgray;
+    padding: 35px;
+    text-align: justify;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.item-img img {
+    width: 100px;
+    height: 100px;
+    margin-right: 25px;
+}
+
+.image-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-info span {
+    line-height: 30px;
+}
+
+.image-info #head {
+    color: grey;
+}
+
+.image-info #head-name {
+    font-weight: bold;
+}
+
+footer {
+    background: url(/public/Images/Footer-image.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.footer-head {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subscribe-note {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.subscribe input {
+    padding: 12px 30px 12px 30px;
+    margin-right: 15px;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    border: none;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 3fr 2.25fr 2.25fr 2.25fr 2.25fr;
+}
+
+.footer-brand-title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact .icons {
+    font-size: 20px;
+    letter-spacing: 7px;
+    color: gray;
+}
+
+.contact dl dt {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact dl dd {
+    color: gray;
+}
