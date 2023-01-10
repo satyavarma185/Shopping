@@ -49,7 +49,7 @@ header {
 }
 
 .women {
-    background-image: url(/public/Images/Women-wear.jpg);
+    background-image: url(Women-wear.jpg);
     background-size: cover;
     background-position: center;
     height: 450px;
@@ -75,7 +75,7 @@ header {
 
 
 .Men {
-    background-image: url(/public/Images/Men-wear.jpg);
+    background-image: url(Men-wear.jpg);
     background-size: cover;
     background-position: center;
     height: 450px;
@@ -92,7 +92,7 @@ header {
 }
 
 .Kids {
-    background-image: url(/public/Images/kids-wear1.jpg);
+    background-image: url(kids-wear1.jpg);
     background-size: cover;
     background-position: center;
     height: 450px;
@@ -166,13 +166,13 @@ button span {
 }
 
 .bags {
-    background-image: url(/public/Images/Bags.jpg);
+    background-image: url(Bags.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .Printed-shirts {
-    background-image: url(/public/Images/Printes\ shirt.jpg);
+    background-image: url(Printes\ shirt.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -217,7 +217,7 @@ button span {
 }
 
 .Women-Dress {
-    background-image: url(/public/Images/Womens\ Dress.jpg);
+    background-image: url(Womens\ Dress.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -230,7 +230,7 @@ button span {
 }
 
 .Sweat-shirt {
-    background-image: url(/public/Images/Sweatshirt.jpg);
+    background-image: url(Sweatshirt.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -294,7 +294,7 @@ img {
 }
 
 .adv-banner {
-    background-image: url(/public/Images/Adv-banner.jpg);
+    background-image: url(Adv-banner.jpg);
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -400,7 +400,7 @@ img {
 }
 
 footer {
-    background: url(/public/Images/Footer-image.jpg);
+    background: url(Footer-image.jpg);
     background-size: cover;
     background-position: center;
     color: white;
