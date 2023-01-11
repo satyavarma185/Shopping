@@ -20,6 +20,10 @@ header {
     margin-right: 30px;
 }
 
+.brand-menu span:hover{
+    color:orange;
+}
+
 .brand-icons {
     font-size: 20px;
     font-weight: 500;
